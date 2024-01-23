@@ -84,10 +84,10 @@ test('Handling table', async({ page }) => {
             }
 
         }
-        await page.waitForTimeout(2000); // wait for 2 sec
+        await page.waitForTimeout(1000); // wait for 1 sec
 
     }
 
-    await page.waitForTimeout(1000); // wait for 4 sec
+    await page.waitForTimeout(1000); // wait for 1 sec
 
 });
