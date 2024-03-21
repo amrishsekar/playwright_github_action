@@ -11,7 +11,7 @@ jobs:
           command: npm install
       - run:
           name: Run Playwright Tests
-          command: npm test
+          command: npx playwright test
 
 workflows:
   version: 2
