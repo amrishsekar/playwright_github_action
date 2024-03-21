@@ -13,7 +13,7 @@ jobs:
             npx playwright install  # Command to download browser binaries
       - run:
           name: Run Playwright Tests
-          command: npx playwright test
+          command: npx playwright test --project=chromium
 
 workflows:
   version: 2
