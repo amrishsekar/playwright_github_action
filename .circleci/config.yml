@@ -8,7 +8,9 @@ jobs:
       - checkout
       - run:
           name: Install Dependencies
-          command: npm install
+          command: |
+            npm install
+            npx playwright install  # Command to download browser binaries
       - run:
           name: Run Playwright Tests
           command: npx playwright test
